@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152A6BFA2E92D29200D26399 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 152A6BF92E92D29200D26399 /* CodeScanner */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1502A3E32E92B5460084D538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1502A3CD2E92B5450084D538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1502A3D42E92B5450084D538;
+			remoteInfo = "nfc-forwarder";
+		};
+		1502A3ED2E92B5460084D538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1502A3CD2E92B5450084D538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1502A3D42E92B5450084D538;
+			remoteInfo = "nfc-forwarder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1502A3D52E92B5450084D538 /* nfc-forwarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nfc-forwarder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1502A3E22E92B5460084D538 /* nfc-forwarderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nfc-forwarderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1502A3EC2E92B5460084D538 /* nfc-forwarderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nfc-forwarderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152A6BFE2E92F74600D26399 /* nfc-forwarder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "nfc-forwarder.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		152A6BFC2E92E17200D26399 /* Exceptions for "nfc-forwarder" folder in "nfc-forwarder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1502A3D42E92B5450084D538 /* nfc-forwarder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1502A3D72E92B5450084D538 /* nfc-forwarder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				152A6BFC2E92E17200D26399 /* Exceptions for "nfc-forwarder" folder in "nfc-forwarder" target */,
+			);
+			path = "nfc-forwarder";
+			sourceTree = "<group>";
+		};
+		1502A3E52E92B5460084D538 /* nfc-forwarderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "nfc-forwarderTests";
+			sourceTree = "<group>";
+		};
+		1502A3EF2E92B5460084D538 /* nfc-forwarderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "nfc-forwarderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1502A3D22E92B5450084D538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152A6BFA2E92D29200D26399 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3DF2E92B5460084D538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3E92E92B5460084D538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1502A3CC2E92B5450084D538 = {
+			isa = PBXGroup;
+			children = (
+				152A6BFE2E92F74600D26399 /* nfc-forwarder.entitlements */,
+				1502A3D72E92B5450084D538 /* nfc-forwarder */,
+				1502A3E52E92B5460084D538 /* nfc-forwarderTests */,
+				1502A3EF2E92B5460084D538 /* nfc-forwarderUITests */,
+				1502A3D62E92B5450084D538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1502A3D62E92B5450084D538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1502A3D52E92B5450084D538 /* nfc-forwarder.app */,
+				1502A3E22E92B5460084D538 /* nfc-forwarderTests.xctest */,
+				1502A3EC2E92B5460084D538 /* nfc-forwarderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1502A3D42E92B5450084D538 /* nfc-forwarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1502A3F62E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarder" */;
+			buildPhases = (
+				1502A3D12E92B5450084D538 /* Sources */,
+				1502A3D22E92B5450084D538 /* Frameworks */,
+				1502A3D32E92B5450084D538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1502A3D72E92B5450084D538 /* nfc-forwarder */,
+			);
+			name = "nfc-forwarder";
+			packageProductDependencies = (
+				152A6BF92E92D29200D26399 /* CodeScanner */,
+			);
+			productName = "nfc-forwarder";
+			productReference = 1502A3D52E92B5450084D538 /* nfc-forwarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1502A3E12E92B5460084D538 /* nfc-forwarderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1502A3F92E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarderTests" */;
+			buildPhases = (
+				1502A3DE2E92B5460084D538 /* Sources */,
+				1502A3DF2E92B5460084D538 /* Frameworks */,
+				1502A3E02E92B5460084D538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1502A3E42E92B5460084D538 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1502A3E52E92B5460084D538 /* nfc-forwarderTests */,
+			);
+			name = "nfc-forwarderTests";
+			packageProductDependencies = (
+			);
+			productName = "nfc-forwarderTests";
+			productReference = 1502A3E22E92B5460084D538 /* nfc-forwarderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1502A3EB2E92B5460084D538 /* nfc-forwarderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1502A3FC2E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarderUITests" */;
+			buildPhases = (
+				1502A3E82E92B5460084D538 /* Sources */,
+				1502A3E92E92B5460084D538 /* Frameworks */,
+				1502A3EA2E92B5460084D538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1502A3EE2E92B5460084D538 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1502A3EF2E92B5460084D538 /* nfc-forwarderUITests */,
+			);
+			name = "nfc-forwarderUITests";
+			packageProductDependencies = (
+			);
+			productName = "nfc-forwarderUITests";
+			productReference = 1502A3EC2E92B5460084D538 /* nfc-forwarderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1502A3CD2E92B5450084D538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					1502A3D42E92B5450084D538 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					1502A3E12E92B5460084D538 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 1502A3D42E92B5450084D538;
+					};
+					1502A3EB2E92B5460084D538 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 1502A3D42E92B5450084D538;
+					};
+				};
+			};
+			buildConfigurationList = 1502A3D02E92B5450084D538 /* Build configuration list for PBXProject "nfc-forwarder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1502A3CC2E92B5450084D538;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				152A6BF82E92CB5D00D26399 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1502A3D62E92B5450084D538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1502A3D42E92B5450084D538 /* nfc-forwarder */,
+				1502A3E12E92B5460084D538 /* nfc-forwarderTests */,
+				1502A3EB2E92B5460084D538 /* nfc-forwarderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1502A3D32E92B5450084D538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3E02E92B5460084D538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3EA2E92B5460084D538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1502A3D12E92B5450084D538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3DE2E92B5460084D538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502A3E82E92B5460084D538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1502A3E42E92B5460084D538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1502A3D42E92B5450084D538 /* nfc-forwarder */;
+			targetProxy = 1502A3E32E92B5460084D538 /* PBXContainerItemProxy */;
+		};
+		1502A3EE2E92B5460084D538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1502A3D42E92B5450084D538 /* nfc-forwarder */;
+			targetProxy = 1502A3ED2E92B5460084D538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1502A3F42E92B5460084D538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1502A3F52E92B5460084D538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1502A3F72E92B5460084D538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/nfc-forwarder.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nfc-forwarder/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC scanner to write the data from QR codes onto NFC tags. ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan QR codes to get info to write to the NFC tags";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarder-trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1502A3F82E92B5460084D538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/nfc-forwarder.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nfc-forwarder/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC scanner to write the data from QR codes onto NFC tags. ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan QR codes to get info to write to the NFC tags";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarder-trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1502A3FA2E92B5460084D538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc-forwarder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nfc-forwarder";
+			};
+			name = Debug;
+		};
+		1502A3FB2E92B5460084D538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc-forwarder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nfc-forwarder";
+			};
+			name = Release;
+		};
+		1502A3FD2E92B5460084D538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nfc-forwarder";
+			};
+			name = Debug;
+		};
+		1502A3FE2E92B5460084D538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2LN8PLB5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "opperudhome.nfc-forwarderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nfc-forwarder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1502A3D02E92B5450084D538 /* Build configuration list for PBXProject "nfc-forwarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502A3F42E92B5460084D538 /* Debug */,
+				1502A3F52E92B5460084D538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1502A3F62E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502A3F72E92B5460084D538 /* Debug */,
+				1502A3F82E92B5460084D538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1502A3F92E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502A3FA2E92B5460084D538 /* Debug */,
+				1502A3FB2E92B5460084D538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1502A3FC2E92B5460084D538 /* Build configuration list for PBXNativeTarget "nfc-forwarderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502A3FD2E92B5460084D538 /* Debug */,
+				1502A3FE2E92B5460084D538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		152A6BF82E92CB5D00D26399 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		152A6BF92E92D29200D26399 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 152A6BF82E92CB5D00D26399 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1502A3CD2E92B5450084D538 /* Project object */;
+}
