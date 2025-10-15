@@ -142,7 +142,7 @@ struct MainView: View {
             
             Button("Clear", role: .destructive) {
                 print("Clearing Scan")
-                nfcWriterService?.startNFCSession()
+                dolly = Dolly(scanInput: "")
             }
             .font(.headline)
             .padding()
